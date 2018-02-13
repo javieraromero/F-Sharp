@@ -7,8 +7,7 @@ let fizzbuzz x =
 	elif x % 5 = 0 then printfn "Buzz"
   
 	else printfn "%i" x
-  
-
+;;
 
 let x = [1..100];;
 

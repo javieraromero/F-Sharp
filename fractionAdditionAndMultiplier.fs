@@ -4,8 +4,6 @@ let rec gcf x y =
 
 let lcm x y = x * (y / gcf x y);;
 
-let rec = Myfile.rec;;
-
 let (.+) (a, b) (c, d) =
 	let LCM = lcm b d
 	let div1 = LCM / b
